@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Expense Tracker Design System - Professional Financial Theme */
+
+@layer base {
+  :root {
+    --background: 248 50% 97%;
+    --foreground: 215 25% 27%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 27%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 27%;
+
+    --primary: 152 76% 36%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 205 89% 53%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 43 96% 56%;
+    --accent-foreground: 215 25% 27%;
+
+    --success: 152 76% 36%;
+    --success-foreground: 0 0% 98%;
+
+    --warning: 43 96% 56%;
+    --warning-foreground: 215 25% 27%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 14% 91%;
+    --input: 220 14% 96%;
+    --ring: 152 76% 36%;
+
+    --radius: 0.5rem;
+    
+    --gradient-primary: linear-gradient(135deg, hsl(152 76% 36%), hsl(152 76% 44%));
+    --gradient-secondary: linear-gradient(135deg, hsl(205 89% 53%), hsl(205 89% 61%));
+    --gradient-success: linear-gradient(135deg, hsl(152 76% 36%), hsl(152 68% 42%));
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%), hsl(220 14% 98%));
+    
+    --shadow-soft: 0 2px 8px -2px hsl(215 25% 27% / 0.1);
+    --shadow-card: 0 4px 12px -2px hsl(215 25% 27% / 0.08);
+    --shadow-elevated: 0 8px 24px -4px hsl(215 25% 27% / 0.12);
+    
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 215 28% 17%;
+    --foreground: 210 40% 98%;
+
+    --card: 215 28% 20%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 215 28% 20%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 152 76% 44%;
+    --primary-foreground: 215 28% 17%;
+
+    --secondary: 205 89% 61%;
+    --secondary-foreground: 215 28% 17%;
+
+    --muted: 215 28% 25%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 43 96% 64%;
+    --accent-foreground: 215 28% 17%;
+
+    --success: 152 76% 44%;
+    --success-foreground: 215 28% 17%;
+
+    --warning: 43 96% 64%;
+    --warning-foreground: 215 28% 17%;
+
+    --destructive: 0 84% 65%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 28% 25%;
+    --input: 215 28% 25%;
+    --ring: 152 76% 44%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(152 76% 44%), hsl(152 76% 52%));
+    --gradient-secondary: linear-gradient(135deg, hsl(205 89% 61%), hsl(205 89% 69%));
+    --gradient-success: linear-gradient(135deg, hsl(152 76% 44%), hsl(152 68% 50%));
+    --gradient-card: linear-gradient(135deg, hsl(215 28% 20%), hsl(215 28% 22%));
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
