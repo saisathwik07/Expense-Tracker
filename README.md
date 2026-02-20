@@ -8,7 +8,7 @@ This application allows users to track daily expenses, manage spending records, 
 
 ## 🚀 Live Demo
 
-👉 https://YOUR_GITHUB_USERNAME.github.io/spend-log/
+👉 [https://YOUR_GITHUB_USERNAME.github.io/spend-log/](https://expense-tracker-chi-gules.vercel.app/)
 
 (Replace `YOUR_GITHUB_USERNAME` with your actual GitHub username after deployment)
 
